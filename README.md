@@ -1,16 +1,25 @@
-# newgo
+# CrowdGO 
 
-A new Flutter project.
+A mobile application built with Flutter for real-time crowd management and event safety. 
 
-## Getting Started
+## Tech Stack 
+- **Frontend:** Flutter
+- **Backend:** Firebase (Firestore & Authentication)
+- **Data Logic:** Python & Spatial Analytics
 
-This project is a starting point for a Flutter application.
+## Features
+- **Zonal Density Mapping:** Real-time visualization using Red, Orange, and Green zones to indicate crowd levels.
+- **Dual Interface:** Separate, synchronized workflows for Admin monitoring and User safety viewing.
+- **Geofencing:** Precise spatial monitoring of event boundaries and specific interest zones.
+- **Real-time Alerts:** Automated notifications triggered when zone density reaches critical thresholds.
 
-A few resources to get you started if this is your first Flutter project:
+## Team 
+- Hasna Kadeeja
+- Isha Harish
+- Helna V Shaji
+- Gouri K Mineesh
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Run 
+1. Clone the repo:
+   ```bash
+    git clone https://github.com/ishaharish/CrowdGO-MobileApp.git
