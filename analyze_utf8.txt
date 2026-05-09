@@ -1,0 +1,66 @@
+﻿Analyzing newgo-prefinal 2.0 - ag2...                           
+
+warning - Unused import: 'package:flutter_map/flutter_map.dart' - lib\screens\admin_dashboard.dart:9:8 - unused_import
+warning - Unused import: 'package:latlong2/latlong.dart' - lib\screens\admin_dashboard.dart:10:8 - unused_import
+   info - Constructors for public widgets should have a named 'key' parameter - lib\screens\admin_dashboard.dart:20:7 - use_key_in_widget_constructors
+   info - Invalid use of a private type in a public API - lib\screens\admin_dashboard.dart:22:3 - library_private_types_in_public_api
+   info - The constant name 'MIN_SQM_PER_PERSON' isn't a lowerCamelCase identifier - lib\screens\admin_dashboard.dart:48:23 - constant_identifier_names
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin_dashboard.dart:141:30 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin_dashboard.dart:145:30 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin_dashboard.dart:214:32 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin_dashboard.dart:225:32 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin_dashboard.dart:234:30 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin_dashboard.dart:269:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin_dashboard.dart:278:7 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin_dashboard.dart:293:30 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin_dashboard.dart:304:30 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin_dashboard.dart:312:30 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin_dashboard.dart:326:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin_dashboard.dart:357:31 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin_dashboard.dart:363:28 - use_build_context_synchronously
+warning - This default clause is covered by the previous cases - lib\screens\admin_dashboard.dart:766:7 - unreachable_switch_default
+   info - The 'child' argument should be last in widget constructor invocations - lib\screens\admin_dashboard.dart:898:23 - sort_child_properties_last
+   info - Unnecessary braces in a string interpolation - lib\screens\admin_dashboard.dart:909:46 - unnecessary_brace_in_string_interps
+   info - The private field _maxDensity could be 'final' - lib\screens\admin_heatmap_grid.dart:29:10 - prefer_final_fields
+warning - The value of the field '_maxDensity' isn't used - lib\screens\admin_heatmap_grid.dart:29:10 - unused_field
+warning - The value of the field '_totalDistance' isn't used - lib\screens\admin_heatmap_grid.dart:30:10 - unused_field
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin_heatmap_grid.dart:37:27 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin_heatmap_grid.dart:39:28 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin_heatmap_grid.dart:41:28 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin_heatmap_grid.dart:43:25 - deprecated_member_use
+  error - The argument type 'List<GraphNode>' can't be assigned to the parameter type 'GraphNode'.  - lib\screens\admin_heatmap_grid.dart:157:7 - argument_type_not_assignable
+  error - The argument type 'List<ExitGate>' can't be assigned to the parameter type 'List<GraphNode>'.  - lib\screens\admin_heatmap_grid.dart:158:7 - argument_type_not_assignable
+   info - 'center' is deprecated and shouldn't be used. Prefer `initialCenter` instead. This option has been renamed to clarify its meaning. This option is deprecated since v6 - lib\screens\admin_heatmap_grid.dart:347:25 - deprecated_member_use
+   info - 'zoom' is deprecated and shouldn't be used. Prefer `initialZoom` instead. This option has been renamed to clarify its meaning. This option is deprecated since v6 - lib\screens\admin_heatmap_grid.dart:348:25 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin_heatmap_grid.dart:365:50 - deprecated_member_use
+   info - Constructors for public widgets should have a named 'key' parameter - lib\screens\event_creation.dart:6:7 - use_key_in_widget_constructors
+   info - Don't invoke 'print' in production code - lib\screens\event_creation.dart:44:7 - avoid_print
+  error - The named parameter 'onCompleted' isn't defined - lib\screens\event_creation.dart:84:19 - undefined_named_parameter
+   info - Don't invoke 'print' in production code - lib\screens\location_share.dart:194:17 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\location_share.dart:195:17 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\location_share.dart:196:17 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\location_share.dart:271:19 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\location_share.dart:274:19 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\location_share.dart:323:21 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\location_share.dart:335:21 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\location_share.dart:338:19 - avoid_print
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\location_share.dart:373:48 - deprecated_member_use
+   info - Constructors for public widgets should have a named 'key' parameter - lib\screens\login_page.dart:7:7 - use_key_in_widget_constructors
+   info - Invalid use of a private type in a public API - lib\screens\login_page.dart:9:3 - library_private_types_in_public_api
+   info - Don't use 'BuildContext's across async gaps - lib\screens\login_page.dart:54:13 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\login_page.dart:63:30 - use_build_context_synchronously
+   info - The 'child' argument should be last in widget constructor invocations - lib\screens\login_page.dart:132:19 - sort_child_properties_last
+   info - Parameter 'key' could be a super parameter - lib\screens\report_missing_person.dart:11:9 - use_super_parameters
+warning - Unused import: 'safe_path_page.dart' - lib\screens\user_dashboard.dart:9:8 - unused_import
+   info - Constructors for public widgets should have a named 'key' parameter - lib\screens\user_dashboard.dart:11:7 - use_key_in_widget_constructors
+   info - Invalid use of a private type in a public API - lib\screens\user_dashboard.dart:13:3 - library_private_types_in_public_api
+   info - Don't use 'BuildContext's across async gaps - lib\screens\user_dashboard.dart:143:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\user_dashboard.dart:169:9 - use_build_context_synchronously
+   info - The constant name 'MIN_SQM_PER_PERSON' isn't a lowerCamelCase identifier - lib\screens\venue_boundary_setup.dart:25:23 - constant_identifier_names
+   info - Don't use 'BuildContext's across async gaps - lib\screens\venue_boundary_setup.dart:68:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\venue_boundary_setup.dart:88:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\venue_boundary_setup.dart:157:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\venue_boundary_setup.dart:164:28 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\venue_boundary_setup.dart:235:50 - deprecated_member_use
+   info - The constant name 'CROWD_MULTIPLIER' isn't a lowerCamelCase identifier - lib\utils\a_star_pathfinder.dart:8:23 - constant_identifier_names
+

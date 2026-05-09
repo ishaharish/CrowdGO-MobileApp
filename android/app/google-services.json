@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "2912008148",
+    "project_id": "crowdgo-2c307",
+    "storage_bucket": "crowdgo-2c307.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2912008148:android:c9ac6324e83c66f89d0841",
+        "android_client_info": {
+          "package_name": "com.example.crowdgo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOTj-INhSqrKY9czPg3PCqePCkrdI3X5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2912008148:android:7e21a768ef73532f9d0841",
+        "android_client_info": {
+          "package_name": "com.example.newgo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOTj-INhSqrKY9czPg3PCqePCkrdI3X5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
