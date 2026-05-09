@@ -5,7 +5,6 @@ A mobile application built with Flutter for real-time crowd management and event
 ## Tech Stack 
 - **Frontend:** Flutter
 - **Backend:** Firebase (Firestore & Authentication)
-- **Data Logic:** Python & Spatial Analytics
 
 ## Features
 - **Zonal Density Mapping:** Real-time visualization using Red, Orange, and Green zones to indicate crowd levels.
